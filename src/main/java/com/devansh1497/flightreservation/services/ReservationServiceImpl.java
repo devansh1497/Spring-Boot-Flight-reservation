@@ -3,6 +3,7 @@ package com.devansh1497.flightreservation.services;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.devansh1497.flightreservation.dto.ReservationRequestDTO;
 import com.devansh1497.flightreservation.entities.Flight;
@@ -12,6 +13,7 @@ import com.devansh1497.flightreservation.repository.FlightRepository;
 import com.devansh1497.flightreservation.repository.PassengerRepository;
 import com.devansh1497.flightreservation.repository.ReservationRepository;
 
+@Service
 public class ReservationServiceImpl implements ReservationService{
 
 	@Autowired
